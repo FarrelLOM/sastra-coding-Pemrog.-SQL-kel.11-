@@ -165,12 +165,9 @@ INSERT into pinjaman_kredit value(
     "2%"
 );
 #query display output-control
+show databases;
 show tables;
 SELECT * from rekBank;
 SELECT * from pinjaman_kredit;
 SELECT * from nasabah;
 SELECT * from catatan;
-delete from pinjaman_kredit where num=1;
-update pinjaman_kredit set num;
-alter table pinjaman_kredit add COLUMN num int PRIMARY key AUTO_INCREMENT;
-UPDATE pinjaman_kredit set num=3 where no_rek="JM313"; ;
